@@ -17,20 +17,21 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/images/logo_new.png',
+        type: 'image/png',
+      },
+      {
         url: '/favicon.svg',
         type: 'image/svg+xml',
       },
-      {
-        url: '/images/logo.png',
-      },
     ],
-    shortcut: '/favicon.svg',
-    apple: '/images/logo.png',
+    shortcut: '/images/logo_new.png',
+    apple: '/images/logo_new.png',
     other: [
       {
         rel: 'icon',
-        url: '/favicon.svg',
-        type: 'image/svg+xml',
+        url: '/images/logo_new.png',
+        type: 'image/png',
       },
     ],
   },
