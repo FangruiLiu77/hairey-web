@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, Sun, Moon } from 'lucide-react';
@@ -43,12 +44,14 @@ export const Header = () => {
       <div className={styles.container}>
         <nav className={styles.nav}>
           <Link href="/" className={styles.logoLink}>
-            <div className={styles.logoBox}>
-              <span className={styles.logoText}>H</span>
-            </div>
-            <span className={styles.brandText}>
-              HAIREY
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Hairey"
+              width={650}
+              height={199}
+              className={styles.logoImage}
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}

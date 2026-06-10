@@ -15,16 +15,10 @@ export const metadata: Metadata = {
   description: "Hairey - Next-Gen Dental Biotechnology. Delivering high-performance digital restoration solutions to clinics worldwide through advanced materials and precision engineering.",
   keywords: ["Hairey", "dental biotechnology", "digital restoration", "precision dentistry", "dental materials", "digital workflow", "biomaterials"],
   icons: {
-    icon: [
-      {
-        url: '/images/logo_new.png',
-        type: 'image/png',
-      },
-      {
-        url: '/favicon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: {
+      url: '/images/logo_new.png',
+      type: 'image/png',
+    },
     shortcut: '/images/logo_new.png',
     apple: '/images/logo_new.png',
     other: [
